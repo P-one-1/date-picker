@@ -1,0 +1,15 @@
+<h1>Dates#pick</h1>
+
+<%= form_with scope: :date do |form|%>
+    <%# <div  class='datepicker'> %>
+        <%= datepicker_input form, :accepted_at_start%>
+    <%# </div> %>
+<% end %>
+
+<p>Find me in app/views/dates/pick.html.erb</p>
+
+<%# <script type="text/javascript">
+  $(document).ready(function(){
+    $('.datepicker').datepicker();
+  });
+</script> %>
